@@ -1,0 +1,91 @@
+JavaScript
+
+Variáveis e Tipos Primitivos
+
+	Comentarios: //Comentário em linha
+		     /*mais de uma linha de codigo*/
+
+
+O valor de igual= é recebe
+
+Quando uma variável recebe o valor de 'null', ela ira deixar vazio, independente do qualquer outro valor que esteja nele.
+
+
+Variáveis
+
+Para criar uma variável usaremos as tags:
+
+let
+var
+
+s = string
+strings usam aspas para serem identificadas como tal
+Tudo q tiver dentro das aspas"" é considerado uma strig
+EX:
+
+var n1 = 5
+var n2 = 8.5
+var n3 = 15
+
+var s1 = JavaScript
+var s2 = Curso em video
+var s3 = Guanabara
+
+Identificadores
+
+O nome de cada variavel  tem como nome de identificador
+
+Podem começar com letras, $ ou _
+
+Não podem começar com números
+
+É possível usar letras ou números
+
+É possível usar acentos e símbolos
+
+Não podem conter espaços	para dar espaço use _
+
+Não podem ser palavras reservadas	palavras q o JS usa como comandos
+
+
+Quando for dar um valor a variável use ponto e não virgula.
+
+Dicas
+
+maiúsculas e minúsculas fazem diferenças
+
+Use nome coerentes para variáveis
+
+Não use só letras e números para criar variáveis
+
+
+Tipos de variáveis
+
+números inteiros: 6, 10 ,35
+
+Números quebrados (são chamados de reais, q são números com pontos flutuantes): Float
+
+Números (Qualquer um): number
+
+String: São um conjunto de caracteres
+
+True e False: Boolean
+
+Data Types	Tipos primitivos
+
+Numbers
+	Infinity
+	NaN
+String
+Boolean
+Null
+Undefined
+Object
+	Array
+Function
+
+Tudo se resumi a um :
+
+Typeof
+
+object []

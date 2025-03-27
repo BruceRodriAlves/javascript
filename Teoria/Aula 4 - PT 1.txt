@@ -1,0 +1,52 @@
+JavaScript
+Aula 3 
+
+Operadores
+
+5 + 2 = 7	Soma
+5 - 2 = 3	Subtração
+5 * 2 = 10	Multiplicação
+5 / 2 = 2.5	Divisão
+5 % 2 = 1	Resto da divisão inteira
+5 ** 2 = 25	Potência
+
+Precedência (Ordem dos operadores)
+
+()
+**
+* / %
++ -
+
+Atribuição:
+
+Simples: 
+
+Var a = 5+3 : 8
+Var b = a% 5 : 3
+Var c = 5* b ** 2 : 45
+Var d = 10 – a / 2 : 6
+Var e = 6 * 2 / d : 2
+Var f = b % e + 4 / e : 3
+
+Auto atribuição:
+
+Var n = 3
+n = n+4
+n = n-5
+n = n*4
+n = n/2
+n = n**2
+n = n%5
+
+Simplificando:
+n+= 4
+n-= 5
+n*= 4
+n/= 2
+n**= 2
+n%= 5
+
+Incremento:
+Var x =5
+X = x+1    x+=1       x++(simplificado)
+X = x-1    x-=1          x--  (simplificado)

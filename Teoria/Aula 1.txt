@@ -1,0 +1,22 @@
+JavaScript
+
+Introdução
+
+Para fazer a parte de JS interno, temos q colocar tudo dentro de um script
+
+Na maioria das vezes, todo comando é sempre em letras minusculas
+
+Para colocar uma mensagem de alerta use:
+
+window.alert('Minha primeira mensagem')
+
+Nesse caso, não é necessário usar o window
+
+        window.confirm('Está gostando de JS')
+Aq ele vai perguntar com ok ou cancelar
+
+
+        window.prompt('Qual é o seu nome')
+
+
+Aq ele vai interagir com o usuário e deixar escrever na mensagem de alerta

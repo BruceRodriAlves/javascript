@@ -1,0 +1,67 @@
+JavaScript
+Aula 3 
+
+Tratamento de Dados
+
+var nome = window.prompt('Qual é o seu nome')
+
+Aqui ele criou uma variável chamada "nome" que recebe o valor que o usuário colocar dentro da parte de pergunta que ele recebe
+
+window.alert('É um grande prazer em te conhecer,' + nome)
+
+Aqui ele vai mandar uma mensagem(Alerta) que irá fala o que está dentro.
+
+O mais(+) tem como função de contatenar, ou seja, de juntar valores, geralmente em strings
+
+window.prompt sempre irá retornar uma string, mesmo que coloque números dentro da caixa
+
+Para resolver esse problema iremos usar:
+
+String para numero:
+
+Number.parseInt(n)	Números inteiros
+Number.parsefloat(n)	Números quebrados
+
+Forma simplificada
+
+Number(n)
+
+Número para string
+
+String(n)
+n.toString(n)
+
+
+'Eu estou aprendendo s'   //Não faz interpolação
+'Eu estou aprendendo' + s  //Não faz concatenação
+'Eu estou aprendendo ${s}  //Usa template string
+
+
+s.length  //Quantas caracteres a string tem
+s.toUpperCase()  //Tudo para 'Maiúsculo'
+s.toLowerCase() //Tudo para 'Minúsculo'
+
+Aspas simples e dupla será utilizado apenas em strings
+
+
+document.write(`Seu nome tem ${nome.length} letras`)
+
+Aqui ele pergunta:
+
+document: No documento
+Write: Escreva
+legth: Vai contar quantas letras a palavra q vc escreveu tem
+No documento escreva('Seu nome tem 'tantas' letras)
+
+Formatando números
+
+var n1 = 50.5
+n1.toFixed(2)  Vai adicionar casas decimais
+	50.50
+n1.toFixed(2)replace(',', '.')  replace: vai alterar o ponto por virgula
+	50,50
+
+
+Como colocar que tipo de dinheiro é?
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
