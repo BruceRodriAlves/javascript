@@ -1,0 +1,46 @@
+JavaScript
+Aula 7
+
+Condições
+
+if
+
+else
+
+
+Criando documento em js
+
+Para escrever document.write nele utilize console.log
+
+Condição composta = if e else
+
+
+Condições Aninhadas
+
+É colocar uma condição composta uma dentro da outra
+if else dentro de um else
+
+EX:
+
+var agora = new Date()
+var hora = agora
+console.log(`Agora são exatamente ${hora} horas.`)
+if (hora <= 6) {
+    console.log('Boa madrugada!')
+} else if (hora <= 12){
+    console.log('Boa dia!')
+} else if(hora <= 18){
+    console.log('Boa tarde!')
+} else {
+    console.log('Boa noite')
+}
+
+new Date() = Pega a hora atual
+
+
+Condição múltipla
+
+Trabalha com valores fixos, mas com diversos valores
+É representada pelo comando 'SWITCH', ela é uma expressão
+O default é tipo um else, ou seja, se nenhuma dos valores forem atendidos ela executará tal coisa
+Todo final de bloco um 'brea', se não o comando será executado infinitamente 

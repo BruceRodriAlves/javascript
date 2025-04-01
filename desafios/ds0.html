@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+<style>
+    button {
+        background-color: rgb(175, 175, 175);
+        width: 100px;
+        height: 50px;
+        
+    }
+</style>
+</head>
+<body>
+    <h1>Desafios das Mensagens</h1>
+    <button id="b1" onclick="b">Botão 1</button>
+    <button id="b2" onclick="b">Botão 2</button>
+    <button id="b3" onclick="b">Botão 3</button>
+
+    <script>
+        var b1 = document.getElementById('b1')
+        b1.addEventListener('click', clicar)
+        var b2 = document.getElementById('b2')
+        b2.addEventListener('click', clicar)
+        var b3 = document.getElementById('b3')
+        b3.addEventListener('click', clicar)
+
+        function clicar() {
+            alert('Você clicou no botao')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+JavaScript
+Aula 6
+
+Eventos DOM
+
+É tudo aquilo que pode acontecer.
+
+EX:
+
+Dentro de uma div pode ter um:
+
+Mousemove
+Mouseenter
+mouseup
+mousedown
+mouseout
+click
+
+
+Funções
+
+Tudo que estiver dentro de um function é um bloco
+Todos os blocos são delimitados por sinais de chaves {}
+Todas funções tem eu ter um nome e parâmetros
+
+EX:
+
+function ação(parametro){
+   Bloco
+}
+
+Movimentos com o mouse (Se vira pra entender, to com preguiça de explicar)
+
+        var area = document.getElementById('area')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+        
+        function clicar() {
+            area.innerText = 'clicou!'
+            area.style.background = 'red'
+        }
+        function entrar() {
+            area.innerText = 'Entrou!'
+
+
+
+    <h1>Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="res">Resultado</div>
+    <script>
+        function somar() {
+            var tn1 = document.getElementById('txtn1') 
+            var tn2 = document.getElementById('txtn2')
+            var res = document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
+        }
+    </script>
+            area.style.background = 'blue'
+        }
+        function sair() {
+            area.innerText = 'Saiu!'
+            area.style.background = 'green'
+        }

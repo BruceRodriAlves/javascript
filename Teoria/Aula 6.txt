@@ -1,0 +1,56 @@
+JavaScript
+Aula 5
+
+
+Introdução ao DOM
+
+Document Object Model (Modelo de objetos para documentos)
+
+Conjunto de objetos dentro do mavegador que vai dar acesso aos componentes internos do seu website. 
+
+Não está presente no node.js
+Só está presente quando eu estou rodando JS no navegador
+
+Arvore DOM
+
+A arvore começa na raiz dentro do navegador, que é chamada de 'window'
+A tela do navegador é um objeto DOM e é chamado de window
+
+Dentro do Window temos outros objetos, sendo:
+
+Location: Diz qual é a licalização do seu site (Qual é a URL, página atual, qual foi a página anterior)
+Document: Documento atual
+History: Guarda de onde vc veio e pra onde vc vai (Facilita a navegação do site)
+
+O resto da arvore DOM tá no caderno
+
+
+Navegando pela Arvore DOM
+
+Existe 5 tipos de formas para navegar pela arvore, sendo eles>
+
+Seletores
+
+Por Marca
+getElementByTagName()	Aqui vc consegue selecionar mais de um objeto
+EX:
+Sem a variável o código repetiria varias vezes, já com a variável, o código abaixo precisa repetir apenas uma vez
+var p1 = document.getElementsByTagName('p')[0]
+document.write('Está escrito assim: ' + p1.innerText)
+innerText: só pega o texto 
+innerHTML: Pega o texto e a formatação dele
+
+Por ID
+document.getElementsByTagID()
+
+
+Por Nome
+
+document.getElementsByTagName()
+
+Por Classe
+
+document.getElementsByClassName()
+Por Seletor (Pro CSS)
+
+document.querySelector()

@@ -1,0 +1,18 @@
+        var b1 = document.getElementById('b1')
+        var b2 = document.getElementById('b2')
+        var b3 = document.getElementById('b3')
+        b1.addEventListener('click', clicar)
+        b2.addEventListener('click', clicar)
+        b3.addEventListener('click', clicar)
+        
+        function clicar() {
+            if (b1){
+            b1.innerText = 'clicou!'
+            alert('Você clicou no 1ª botão')
+        } else if (b2) {
+            b2.innerText = 'clicou!'
+            alert('Você clicou no 2ª botão')
+        } else {
+            alert('Você clicou no 3ª botão')
+        }
+    }

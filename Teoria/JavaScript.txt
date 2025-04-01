@@ -1,0 +1,38 @@
+JavaScript
+Aula 4
+
+
+Operadores PT2
+
+
+Operadores Relacionais
+
+5 > 2 = true
+7 < 4 = false
+8 >= 8 = true
+9 <= 7 = false
+5 == 5 = true
+4 != 4 = false
+
+Operadores de identidade
+
+5 == 5 = true
+5 == '5' = true		2 iguais só avalia se são do mesmo valor
+5 === '5' = false	Operador de identidade restrita 3 iguais avalia se são do mesmo valor e do mesmo tipo
+5 === 5 = true
+
+Operadores Lógicos
+
+! Negação
+&& Conjunção
+|| Disjunção
+
+operadores Ternário
+
+teste ? aprovado:reporvado
+
+EX:
+
+média>=7 ?Aprovado :Reprovado
+
+Aqui fala pergunta:  A média é maior ou igual a 7, se for está aprovado, se não está reprovado
